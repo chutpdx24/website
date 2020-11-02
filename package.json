@@ -1,0 +1,14 @@
+{
+  "name": "advancecss",
+  "version": "1.0.0",
+  "description": "playing with advance css",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles.css -w"
+  },
+  "author": "Richard Nhun",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
